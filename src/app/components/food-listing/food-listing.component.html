@@ -1,0 +1,38 @@
+<div class="container">
+    <h3 class="text-center mt-4 mb-2">Food Available</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>About </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="
+            let post of POSTS
+              | paginate
+                : {
+                    itemsPerPage: tableSize,
+                    currentPage: page,
+                    totalItems: count
+                  };
+            let i = index
+          "
+        >
+          <th scope="row">{{ post.id }}</th>
+          <td><img style="width: 100px; height: 100px;" [src]="post.src"/>  <span class="pl-3">{{ post.name }} </span></td>
+          <td> this is good for eat</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="d-flex justify-content-center">
+      <pagination-controls
+        previousLabel="Prev"
+        nextLabel="Next"
+        (pageChange)="onTableDataChange($event)"
+      >
+      </pagination-controls>
+    </div>
+  </div>

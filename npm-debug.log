@@ -1,0 +1,391 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'angular-in-memory-web-api' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 warn package.json buffer@5.7.1 buffer is also the name of a node core module.
+5 warn package.json events@3.3.0 events is also the name of a node core module.
+6 warn package.json minipass-collect@1.0.2 No repository field.
+7 warn package.json minipass-pipeline@1.2.4 No repository field.
+8 warn package.json punycode@2.3.0 punycode is also the name of a node core module.
+9 warn package.json require-from-string@2.0.2 keywords should be an array of strings
+10 warn package.json string_decoder@1.3.0 string_decoder is also the name of a node core module.
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'angular-in-memory-web-api', null ]
+13 verbose cache add name=undefined spec="angular-in-memory-web-api" args=["angular-in-memory-web-api",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'angular-in-memory-web-api',
+14 verbose parsed url   path: 'angular-in-memory-web-api',
+14 verbose parsed url   href: 'angular-in-memory-web-api' }
+15 silly lockFile 6610673d-angular-in-memory-web-api angular-in-memory-web-api
+16 verbose lock angular-in-memory-web-api /home/hemant/.npm/6610673d-angular-in-memory-web-api.lock
+17 silly lockFile 6610673d-angular-in-memory-web-api angular-in-memory-web-api
+18 silly lockFile 6610673d-angular-in-memory-web-api angular-in-memory-web-api
+19 verbose addNamed [ 'angular-in-memory-web-api', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 69907deb-angular-in-memory-web-api angular-in-memory-web-api@
+22 verbose lock angular-in-memory-web-api@ /home/hemant/.npm/69907deb-angular-in-memory-web-api.lock
+23 silly addNameRange { name: 'angular-in-memory-web-api', range: '*', hasData: false }
+24 verbose request where is /angular-in-memory-web-api
+25 verbose request registry https://registry.npmjs.org/
+26 verbose request id 583f5848ee1b72f4
+27 verbose url raw /angular-in-memory-web-api
+28 verbose url resolving [ 'https://registry.npmjs.org/', './angular-in-memory-web-api' ]
+29 verbose url resolved https://registry.npmjs.org/angular-in-memory-web-api
+30 verbose request where is https://registry.npmjs.org/angular-in-memory-web-api
+31 info trying registry request attempt 1 at 10:30:14
+32 http GET https://registry.npmjs.org/angular-in-memory-web-api
+33 http 200 https://registry.npmjs.org/angular-in-memory-web-api
+34 silly registry.get cb [ 200,
+34 silly registry.get   { date: 'Mon, 27 Feb 2023 17:00:17 GMT',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'transfer-encoding': 'chunked',
+34 silly registry.get     connection: 'keep-alive',
+34 silly registry.get     'cf-ray': '7a0279ccbf82f45a-BOM',
+34 silly registry.get     'access-control-allow-origin': '*',
+34 silly registry.get     'cache-control': 'public, max-age=300',
+34 silly registry.get     etag: 'W/"794e872a9b635e7f0e6887f9f1e44057"',
+34 silly registry.get     'last-modified': 'Mon, 28 Nov 2022 19:28:24 GMT',
+34 silly registry.get     vary: 'accept-encoding, accept',
+34 silly registry.get     'cf-cache-status': 'REVALIDATED',
+34 silly registry.get     'x-amz-replication-status': 'COMPLETED',
+34 silly registry.get     server: 'cloudflare',
+34 silly registry.get     'content-encoding': 'gzip' } ]
+35 silly addNameRange number 2 { name: 'angular-in-memory-web-api', range: '*', hasData: true }
+36 silly addNameRange versions [ 'angular-in-memory-web-api',
+36 silly addNameRange   [ '0.1.0',
+36 silly addNameRange     '0.1.1',
+36 silly addNameRange     '0.1.2',
+36 silly addNameRange     '0.1.3',
+36 silly addNameRange     '0.1.4',
+36 silly addNameRange     '0.1.5',
+36 silly addNameRange     '0.1.6',
+36 silly addNameRange     '0.1.7',
+36 silly addNameRange     '0.1.8',
+36 silly addNameRange     '0.1.9',
+36 silly addNameRange     '0.1.10',
+36 silly addNameRange     '0.1.11',
+36 silly addNameRange     '0.1.12',
+36 silly addNameRange     '0.1.13',
+36 silly addNameRange     '0.1.14',
+36 silly addNameRange     '0.1.15',
+36 silly addNameRange     '0.1.16',
+36 silly addNameRange     '0.1.17',
+36 silly addNameRange     '0.2.0',
+36 silly addNameRange     '0.2.1',
+36 silly addNameRange     '0.2.2',
+36 silly addNameRange     '0.2.3',
+36 silly addNameRange     '0.2.4',
+36 silly addNameRange     '0.2.5',
+36 silly addNameRange     '0.3.0',
+36 silly addNameRange     '0.3.1',
+36 silly addNameRange     '0.3.2',
+36 silly addNameRange     '0.4.0',
+36 silly addNameRange     '0.4.1',
+36 silly addNameRange     '0.4.2',
+36 silly addNameRange     '0.4.3',
+36 silly addNameRange     '0.4.4',
+36 silly addNameRange     '0.4.5',
+36 silly addNameRange     '0.4.6',
+36 silly addNameRange     '0.5.0',
+36 silly addNameRange     '0.5.1',
+36 silly addNameRange     '0.5.2',
+36 silly addNameRange     '0.5.3',
+36 silly addNameRange     '0.5.4',
+36 silly addNameRange     '0.6.0',
+36 silly addNameRange     '0.6.1',
+36 silly addNameRange     '0.7.0',
+36 silly addNameRange     '0.8.0',
+36 silly addNameRange     '0.9.0',
+36 silly addNameRange     '0.10.0',
+36 silly addNameRange     '0.11.0',
+36 silly addNameRange     '0.12.0',
+36 silly addNameRange     '0.13.0',
+36 silly addNameRange     '0.14.0',
+36 silly addNameRange     '0.15.0' ] ]
+37 verbose addNamed [ 'angular-in-memory-web-api', '0.15.0' ]
+38 verbose addNamed [ '0.15.0', '0.15.0' ]
+39 silly lockFile c35135f1-angular-in-memory-web-api-0-15-0 angular-in-memory-web-api@0.15.0
+40 verbose lock angular-in-memory-web-api@0.15.0 /home/hemant/.npm/c35135f1-angular-in-memory-web-api-0-15-0.lock
+41 silly lockFile fa067dbc-lar-in-memory-web-api-0-15-0-tgz https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz
+42 verbose lock https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz /home/hemant/.npm/fa067dbc-lar-in-memory-web-api-0-15-0-tgz.lock
+43 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz',
+43 verbose addRemoteTarball   '9152af3d0ddb674d4e64b56fdbe5fdb8bc57b38b' ]
+44 info retry fetch attempt 1 at 10:30:16
+45 verbose fetch to= /tmp/npm-22391-O7wjJDg8/registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz
+46 http GET https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz
+47 http 200 https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz
+48 silly lockFile fa067dbc-lar-in-memory-web-api-0-15-0-tgz https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz
+49 silly lockFile fa067dbc-lar-in-memory-web-api-0-15-0-tgz https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz
+50 silly lockFile c35135f1-angular-in-memory-web-api-0-15-0 angular-in-memory-web-api@0.15.0
+51 silly lockFile c35135f1-angular-in-memory-web-api-0-15-0 angular-in-memory-web-api@0.15.0
+52 silly lockFile 69907deb-angular-in-memory-web-api angular-in-memory-web-api@
+53 silly lockFile 69907deb-angular-in-memory-web-api angular-in-memory-web-api@
+54 silly resolved [ { name: 'angular-in-memory-web-api',
+54 silly resolved     version: '0.15.0',
+54 silly resolved     description: 'An in-memory web api for Angular demos and tests',
+54 silly resolved     author: { name: 'angular' },
+54 silly resolved     license: 'MIT',
+54 silly resolved     peerDependencies:
+54 silly resolved      { '@angular/core': '^15.0.0',
+54 silly resolved        '@angular/common': '^15.0.0',
+54 silly resolved        rxjs: '^6.5.3 || ^7.4.0' },
+54 silly resolved     dependencies: { tslib: '^2.3.0' },
+54 silly resolved     repository:
+54 silly resolved      { type: 'git',
+54 silly resolved        url: 'git+https://github.com/angular/angular.git',
+54 silly resolved        directory: 'packages/misc/angular-in-memory-web-api' },
+54 silly resolved     sideEffects: false,
+54 silly resolved     publishConfig: { registry: 'https://wombat-dressing-room.appspot.com' },
+54 silly resolved     fesm2020: './fesm2020/angular-in-memory-web-api.mjs',
+54 silly resolved     fesm2015: './fesm2015/angular-in-memory-web-api.mjs',
+54 silly resolved     esm2020: './esm2020/angular-in-memory-web-api.mjs',
+54 silly resolved     typings: './index.d.ts',
+54 silly resolved     module: './fesm2015/angular-in-memory-web-api.mjs',
+54 silly resolved     es2020: './fesm2020/angular-in-memory-web-api.mjs',
+54 silly resolved     type: 'module',
+54 silly resolved     exports: { './package.json': [Object], '.': [Object] },
+54 silly resolved     gitHead: 'afc668acd5eef711639dcdb4979acad6c99b8ae3',
+54 silly resolved     bugs: { url: 'https://github.com/angular/angular/issues' },
+54 silly resolved     homepage: 'https://github.com/angular/angular#readme',
+54 silly resolved     _id: 'angular-in-memory-web-api@0.15.0',
+54 silly resolved     _nodeVersion: '16.13.0',
+54 silly resolved     _npmVersion: '8.1.0',
+54 silly resolved     dist:
+54 silly resolved      { integrity: 'sha512-T07vQTeBEGWfwZRM+jIooYgK4c8LR25I27otIthUkFINAREoPiBNogWDxlnROIeu1k2RrY3QJjMOYq7f62UcgA==',
+54 silly resolved        shasum: '9152af3d0ddb674d4e64b56fdbe5fdb8bc57b38b',
+54 silly resolved        tarball: 'https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz',
+54 silly resolved        fileCount: 18,
+54 silly resolved        unpackedSize: 549428,
+54 silly resolved        signatures: [Object],
+54 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjhQvXACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrJ3g//WEmrF16HkImtHOw07ZrRqarSlkrrcIX3bBKXdSyzBQWM3/E1\r\nl+i8KJCXz59FLliNEwfIHtk5CVGhJDdYrp459NVmtmUHk7hPB6SDX6Kj1tMN\r\nV5wKnY2Otr/hIjc3Z/La1NyFtuJPs0pTjbNuoTrSNDLO9Qe43E4mAaiSbheC\r\nA/OT5gTzMH4ig2/pwXZX93kgElxhlRgYf1e8pWkmjfZAsIX1/tpV94TzZOD6\r\nqJchjHmG8kU4W8wv1cliUenT6LDGyO1/F1xNNyr3cCWWxBi8vG9dluqLjMwk\r\nlwQYuVDvNjEOAr41cNFHeHn4LjEMdf3FHOTk9U0hEAO49u0WDK2GN3H4hWOT\r\nOR87fpvdE1HRdfNzDouSj6whoFiS7NJeBG604vRdqqGfWL1GmUjfaH+dLunx\r\ne2iO336fEbURtTs3k7hJ3Yav9ueE3BVRcOOKgqZVnd3XGgJQt86GzVO3erlH\r\nbvu7VD9ATWcuhbi3CjmuJFFnfTW9mLlDi09sHLrFn2oljxTnUTKQ4nPZ9XrE\r\ne8rmWkljvpzLEW4bXaMoTjM9eCXoGPQE7aGiRYWT0/ZErx55WeJa1eK/RUd0\r\njE1B/T01On4Oj1+jPSs8E4In0bCKkAbExnzoWGTcs415H8G01BbjlkpS47wT\r\ndvHNtLkOuziJVRaREo57ZMpd4k+LJeYOm6M=\r\n=j5Qi\r\n-----END PGP SIGNATURE-----\r\n' },
+54 silly resolved     _npmUser:
+54 silly resolved      { name: 'google-wombot',
+54 silly resolved        email: 'node-team-npm+wombot@google.com' },
+54 silly resolved     directories: {},
+54 silly resolved     maintainers: [ [Object], [Object] ],
+54 silly resolved     _npmOperationalInternal:
+54 silly resolved      { host: 's3://npm-registry-packages',
+54 silly resolved        tmp: 'tmp/angular-in-memory-web-api_0.15.0_1669663703237_0.6447676845414765' },
+54 silly resolved     _hasShrinkwrap: false,
+54 silly resolved     _shasum: '9152af3d0ddb674d4e64b56fdbe5fdb8bc57b38b',
+54 silly resolved     _from: 'angular-in-memory-web-api@',
+54 silly resolved     _resolved: 'https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.15.0.tgz' } ]
+55 info install angular-in-memory-web-api@0.15.0 into /home/hemant/my-app-1
+56 info installOne angular-in-memory-web-api@0.15.0
+57 verbose node_modules/angular-in-memory-web-api unbuild
+58 verbose tar unpack /home/hemant/.npm/angular-in-memory-web-api/0.15.0/package.tgz
+59 silly lockFile 4d00377e-odules-angular-in-memory-web-api tar:///home/hemant/my-app-1/node_modules/angular-in-memory-web-api
+60 verbose lock tar:///home/hemant/my-app-1/node_modules/angular-in-memory-web-api /home/hemant/.npm/4d00377e-odules-angular-in-memory-web-api.lock
+61 silly lockFile 7d5940ce-emory-web-api-0-15-0-package-tgz tar:///home/hemant/.npm/angular-in-memory-web-api/0.15.0/package.tgz
+62 verbose lock tar:///home/hemant/.npm/angular-in-memory-web-api/0.15.0/package.tgz /home/hemant/.npm/7d5940ce-emory-web-api-0-15-0-package-tgz.lock
+63 silly gunzTarPerm modes [ '775', '664' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 493, 509 ]
+66 silly gunzTarPerm extractEntry fesm2015/angular-in-memory-web-api.mjs.map
+67 silly gunzTarPerm modified mode [ 'fesm2015/angular-in-memory-web-api.mjs.map', 493, 509 ]
+68 silly gunzTarPerm extractEntry fesm2020/angular-in-memory-web-api.mjs.map
+69 silly gunzTarPerm modified mode [ 'fesm2020/angular-in-memory-web-api.mjs.map', 493, 509 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 493, 509 ]
+72 silly gunzTarPerm extractEntry esm2020/angular-in-memory-web-api.mjs
+73 silly gunzTarPerm modified mode [ 'esm2020/angular-in-memory-web-api.mjs', 493, 509 ]
+74 silly gunzTarPerm extractEntry fesm2015/angular-in-memory-web-api.mjs
+75 silly gunzTarPerm modified mode [ 'fesm2015/angular-in-memory-web-api.mjs', 493, 509 ]
+76 silly gunzTarPerm extractEntry fesm2020/angular-in-memory-web-api.mjs
+77 silly gunzTarPerm modified mode [ 'fesm2020/angular-in-memory-web-api.mjs', 493, 509 ]
+78 silly gunzTarPerm extractEntry esm2020/src/backend-service.mjs
+79 silly gunzTarPerm modified mode [ 'esm2020/src/backend-service.mjs', 493, 509 ]
+80 silly gunzTarPerm extractEntry esm2020/src/delay-response.mjs
+81 silly gunzTarPerm modified mode [ 'esm2020/src/delay-response.mjs', 493, 509 ]
+82 silly gunzTarPerm extractEntry esm2020/src/http-client-backend-service.mjs
+83 silly gunzTarPerm modified mode [ 'esm2020/src/http-client-backend-service.mjs', 493, 509 ]
+84 silly gunzTarPerm extractEntry esm2020/src/http-client-in-memory-web-api-module.mjs
+85 silly gunzTarPerm modified mode [ 'esm2020/src/http-client-in-memory-web-api-module.mjs',
+85 silly gunzTarPerm   493,
+85 silly gunzTarPerm   509 ]
+86 silly gunzTarPerm extractEntry esm2020/src/http-status-codes.mjs
+87 silly gunzTarPerm modified mode [ 'esm2020/src/http-status-codes.mjs', 493, 509 ]
+88 silly gunzTarPerm extractEntry esm2020/src/in-memory-web-api-module.mjs
+89 silly gunzTarPerm modified mode [ 'esm2020/src/in-memory-web-api-module.mjs', 493, 509 ]
+90 silly gunzTarPerm extractEntry esm2020/src/in-memory-web-api.mjs
+91 silly gunzTarPerm modified mode [ 'esm2020/src/in-memory-web-api.mjs', 493, 509 ]
+92 silly gunzTarPerm extractEntry esm2020/index.mjs
+93 silly gunzTarPerm modified mode [ 'esm2020/index.mjs', 493, 509 ]
+94 silly gunzTarPerm extractEntry esm2020/src/interfaces.mjs
+95 silly gunzTarPerm modified mode [ 'esm2020/src/interfaces.mjs', 493, 509 ]
+96 silly gunzTarPerm extractEntry esm2020/public_api.mjs
+97 silly gunzTarPerm modified mode [ 'esm2020/public_api.mjs', 493, 509 ]
+98 silly gunzTarPerm extractEntry index.d.ts
+99 silly gunzTarPerm modified mode [ 'index.d.ts', 493, 509 ]
+100 silly lockFile 4d00377e-odules-angular-in-memory-web-api tar:///home/hemant/my-app-1/node_modules/angular-in-memory-web-api
+101 silly lockFile 4d00377e-odules-angular-in-memory-web-api tar:///home/hemant/my-app-1/node_modules/angular-in-memory-web-api
+102 silly lockFile 7d5940ce-emory-web-api-0-15-0-package-tgz tar:///home/hemant/.npm/angular-in-memory-web-api/0.15.0/package.tgz
+103 silly lockFile 7d5940ce-emory-web-api-0-15-0-package-tgz tar:///home/hemant/.npm/angular-in-memory-web-api/0.15.0/package.tgz
+104 info preinstall angular-in-memory-web-api@0.15.0
+105 verbose readDependencies using package.json deps
+106 verbose readDependencies using package.json deps
+107 silly resolved []
+108 verbose about to build /home/hemant/my-app-1/node_modules/angular-in-memory-web-api
+109 info build /home/hemant/my-app-1/node_modules/angular-in-memory-web-api
+110 verbose linkStuff [ false, false, false, '/home/hemant/my-app-1/node_modules' ]
+111 info linkStuff angular-in-memory-web-api@0.15.0
+112 verbose linkBins angular-in-memory-web-api@0.15.0
+113 verbose linkMans angular-in-memory-web-api@0.15.0
+114 verbose rebuildBundles angular-in-memory-web-api@0.15.0
+115 info install angular-in-memory-web-api@0.15.0
+116 info postinstall angular-in-memory-web-api@0.15.0
+117 verbose readDependencies using package.json deps
+118 verbose cache add [ '@angular/core@^15.0.0', null ]
+119 verbose cache add name=undefined spec="@angular/core@^15.0.0" args=["@angular/core@^15.0.0",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '@angular/core@^15.0.0',
+120 verbose parsed url   path: '@angular/core@^15.0.0',
+120 verbose parsed url   href: '@angular/core@^15.0.0' }
+121 verbose cache add [ '@angular/common@^15.0.0', null ]
+122 verbose cache add name=undefined spec="@angular/common@^15.0.0" args=["@angular/common@^15.0.0",null]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '@angular/common@^15.0.0',
+123 verbose parsed url   path: '@angular/common@^15.0.0',
+123 verbose parsed url   href: '@angular/common@^15.0.0' }
+124 verbose cache add name="" spec="angular/core@^15.0.0" args=["","angular/core@^15.0.0"]
+125 verbose parsed url { protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: 'angular/core@^15.0.0',
+125 verbose parsed url   path: 'angular/core@^15.0.0',
+125 verbose parsed url   href: 'angular/core@^15.0.0' }
+126 verbose cache add name="" spec="angular/common@^15.0.0" args=["","angular/common@^15.0.0"]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'angular/common@^15.0.0',
+127 verbose parsed url   path: 'angular/common@^15.0.0',
+127 verbose parsed url   href: 'angular/common@^15.0.0' }
+128 verbose cache add name="angular/core" spec="^15.0.0" args=["angular/core","^15.0.0"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '^15.0.0',
+129 verbose parsed url   path: '^15.0.0',
+129 verbose parsed url   href: '^15.0.0' }
+130 verbose addNamed [ 'angular/core', '^15.0.0' ]
+131 verbose addNamed [ null, '>=15.0.0-0 <16.0.0-0' ]
+132 silly lockFile c48f445b-angular-core-15-0-0 angular/core@^15.0.0
+133 verbose lock angular/core@^15.0.0 /home/hemant/.npm/c48f445b-angular-core-15-0-0.lock
+134 verbose cache add name="angular/common" spec="^15.0.0" args=["angular/common","^15.0.0"]
+135 verbose parsed url { protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: '^15.0.0',
+135 verbose parsed url   path: '^15.0.0',
+135 verbose parsed url   href: '^15.0.0' }
+136 verbose addNamed [ 'angular/common', '^15.0.0' ]
+137 verbose addNamed [ null, '>=15.0.0-0 <16.0.0-0' ]
+138 silly lockFile 95bd0a3c-angular-common-15-0-0 angular/common@^15.0.0
+139 verbose lock angular/common@^15.0.0 /home/hemant/.npm/95bd0a3c-angular-common-15-0-0.lock
+140 silly addNameRange { name: 'angular/core',
+140 silly addNameRange   range: '>=15.0.0-0 <16.0.0-0',
+140 silly addNameRange   hasData: false }
+141 verbose request where is /angular/core
+142 verbose request registry https://registry.npmjs.org/
+143 verbose url raw /angular/core
+144 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core' ]
+145 verbose url resolved https://registry.npmjs.org/angular/core
+146 verbose request where is https://registry.npmjs.org/angular/core
+147 info trying registry request attempt 1 at 10:30:18
+148 http GET https://registry.npmjs.org/angular/core
+149 silly addNameRange { name: 'angular/common',
+149 silly addNameRange   range: '>=15.0.0-0 <16.0.0-0',
+149 silly addNameRange   hasData: false }
+150 verbose request where is /angular/common
+151 verbose request registry https://registry.npmjs.org/
+152 verbose url raw /angular/common
+153 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common' ]
+154 verbose url resolved https://registry.npmjs.org/angular/common
+155 verbose request where is https://registry.npmjs.org/angular/common
+156 info trying registry request attempt 1 at 10:30:18
+157 http GET https://registry.npmjs.org/angular/common
+158 http 405 https://registry.npmjs.org/angular/common
+159 silly registry.get cb [ 405,
+159 silly registry.get   { date: 'Mon, 27 Feb 2023 17:00:20 GMT',
+159 silly registry.get     'content-type': 'application/json',
+159 silly registry.get     'content-length': '63',
+159 silly registry.get     connection: 'keep-alive',
+159 silly registry.get     'cf-ray': '7a0279e01f16f452-BOM',
+159 silly registry.get     allow: 'PUT',
+159 silly registry.get     'cf-cache-status': 'DYNAMIC',
+159 silly registry.get     vary: 'Accept-Encoding',
+159 silly registry.get     server: 'cloudflare' } ]
+160 silly lockFile 95bd0a3c-angular-common-15-0-0 angular/common@^15.0.0
+161 silly lockFile 95bd0a3c-angular-common-15-0-0 angular/common@^15.0.0
+162 verbose node_modules/angular-in-memory-web-api unbuild
+163 info preuninstall angular-in-memory-web-api@0.15.0
+164 info uninstall angular-in-memory-web-api@0.15.0
+165 verbose true,/home/hemant/my-app-1/node_modules,/home/hemant/my-app-1/node_modules unbuild angular-in-memory-web-api@0.15.0
+166 info postuninstall angular-in-memory-web-api@0.15.0
+167 error Error: Method Not Allowed
+167 error     at errorResponse (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:260:10)
+167 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:203:12
+167 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+167 error     at Object.oncomplete (fs.js:107:15)
+168 error If you need help, you may report this *entire* log,
+168 error including the npm and node versions, at:
+168 error     <http://github.com/npm/npm/issues>
+169 error System Linux 3.10.0-1160.83.1.el7.x86_64
+170 error command "/usr/local/bin/node" "/usr/local/bin/npm" "i" "angular-in-memory-web-api"
+171 error cwd /home/hemant/my-app-1
+172 error node -v v0.10.30
+173 error npm -v 1.4.21
+174 error code E405
+175 verbose exit [ 1, true ]

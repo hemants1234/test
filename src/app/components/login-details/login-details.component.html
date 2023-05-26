@@ -1,0 +1,40 @@
+<div id="sect1"> 
+
+<button (click)="opens()" class="loginbtn">Login</button>
+  
+  <div id="id01" class="modal" #notification>
+    
+    <form class="modal-content animate" action="" method="post">
+      <div class="imgcontainer">
+        <span (click)="close()" class="close" title="Close Modal">&times;</span>
+        <img  src="./../../../assets/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button  class="button" type="submit">Login</button>
+        <div class="spans">
+          <label style="color: black;">
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <label style="color: blue; font-weight: bolder;">
+             <span> <a  [routerLink] = "'/signup-details'"  href="#">Sign up?</a></span>
+          </label>
+        </div>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" (click)="close()" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      
+    </form>
+  </div>
+  
+  
+</div>  

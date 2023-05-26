@@ -1,0 +1,19 @@
+
+<ul>
+    
+    <li><a [routerLink] = "'/profileDetails'">Profile Details </a></li>
+    <li><a [routerLink] = "'/profileInput'">Profile Input</a></li>
+  </ul>
+  <label style ="padding: 0 60px;" for="fname">Name </label>
+  <label style ="padding: 0 60px;" for="lname">Email </label>
+  <label style ="padding: 0 60px;" for="id">ID </label>
+  <div *ngFor="let data of contacts">
+   <form> 
+    
+    <input type="text" id="fname" name="fname" value="data.name" >
+    
+    <input type="text" id="lname" name="lname" value="data.email">
+   
+    <input type="text" id = "id" [value] = "data.id" />
+   </form>
+  </div>
